@@ -39,6 +39,10 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         backgroundColor: isDark ? Colors.black : Colors.white,
         elevation: 0,
+        scrolledUnderElevation: 0,
+        surfaceTintColor: Colors.transparent,
+        shadowColor: Colors.transparent,
+
         title: Text(
           'Repositories',
           style: TextStyle(

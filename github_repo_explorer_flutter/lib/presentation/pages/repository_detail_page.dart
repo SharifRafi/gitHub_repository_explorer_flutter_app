@@ -20,6 +20,10 @@ class RepositoryDetailPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: isDark ? Colors.black : Colors.white,
         elevation: 0,
+        scrolledUnderElevation: 0,
+        surfaceTintColor: Colors.transparent,
+        shadowColor: Colors.transparent,
+
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back_ios,
