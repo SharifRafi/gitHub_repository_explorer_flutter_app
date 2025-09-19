@@ -12,14 +12,14 @@ A beautiful and responsive Flutter app designed to search and explore GitHub's p
 - 🎨 **Modern UI** - Beautiful animations with Material 3 design
 - 🔗 **External Links** - Direct GitHub links in repository details
 
-### 🚀 Setup Instructions
+## 🚀 Setup Instructions
 
-## Prerequisites
+### Prerequisites
 - Flutter SDK (3.8.1 or higher)
 - Android Studio / VS Code
 - Git
 
-## Installation
+### Installation
 1. **Clone the repository:**
 ```bash
 git clone [repository-url]
@@ -38,11 +38,11 @@ flutter packages pub run build_runner build
 flutter run
 ```
 
-## Supported Platforms
+### Supported Platforms
 - ✅ **Android** (API 21+)
 - ✅ **iOS** (iOS 12.0+)
 
-### 🏗️ Architecture Overview
+## 🏗️ Architecture Overview
 This project follows **Clean Architecture** pattern with SOLID principles:
 
 ```
@@ -66,7 +66,7 @@ lib/
 └── di/                 # Dependency Injection setup
 ```
 
-## Key Technologies & Patterns
+### Key Technologies & Patterns
 
 **Architecture Patterns:**
 - **Clean Architecture** - Clear separation of Domain, Data, and Presentation layers
@@ -88,7 +88,7 @@ lib/
 - **Shimmer** - Loading state animations
 - **Cached Network Image** - Efficient image loading and caching
 
-## Key Components
+### Key Components
 
 **State Management:**
 - `RepoListCubit` - Repository list and search state management
@@ -106,15 +106,15 @@ lib/
 - Network connectivity aware error handling
 - Graceful fallback to cached data
 
-### ⚠️ Assumptions/Limitations
+## ⚠️ Assumptions/Limitations
 
-## Assumptions
+### Assumptions
 - Users have a stable internet connection for initial data loading
 - GitHub API rate limits are respected (no authentication implemented)
 - Search queries are in English or standard repository naming conventions
 - Device has sufficient storage for offline caching
 
-## Current Limitations
+### Current Limitations
 - **No Authentication** - Uses GitHub's public API without authentication (limited to 60 requests/hour)
 - **Search Scope** - Only searches public repositories, no private repo access
 - **Limited Filters** - Basic search functionality, no advanced filtering options
@@ -123,7 +123,7 @@ lib/
 - **Rate Limiting** - Subject to GitHub API rate limits for unauthenticated requests
 
 
-### 📱 Screenshots or Demo
+## 📱 Screenshots or Demo
 
 <div align="center">
   
